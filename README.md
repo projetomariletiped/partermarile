@@ -1,2 +1,2 @@
-# https://projetomariletiped.github.io/partemarile/ 
+https://github.com/projetomariletiped/partermarile.git
 trabalho em grupo
