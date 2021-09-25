@@ -277,6 +277,12 @@ section {
   margin-top: 5px;
 }
 
+.main-nav img {
+ margin-top: 5px;
+ margin-bottom: 5px;
+ margin-left: 10px;
+}
+
 /*************************
 ********Service CSS*******
 **************************/
@@ -1049,12 +1055,17 @@ ul.address {
 
   
 }
+.img-responsive.lo{
+  width: 25%;
+
+}
 }
 @media screen and (min-width: 600px){
 
    .team-members {
   margin-bottom: 25px;
   margin-left:40px;
+
   
 }
 .team-membersp {
@@ -1063,6 +1074,12 @@ ul.address {
 
   
 }
+.img-responsive.lo{
+  width: 25%;
+  text-align: center;
+  margin-left:auto ;
+
+}
  }
 @media screen and (min-width: 768px){
 
@@ -1070,6 +1087,11 @@ ul.address {
   margin-bottom: 25px;
   margin-left: 230px;
   
+}
+.img-responsive.lo{
+  width: 85%;
+  text-align: center;
+  margin-left:80px ;
 }
 }
 
