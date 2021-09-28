@@ -379,7 +379,6 @@ section {
 #portfolio .col-sm-3  {
   overflow: hidden;
   padding: 0;
-  text-align:center ;
 }
 
 #portfolio .folio-item {
@@ -449,7 +448,6 @@ section {
 .folio-image, .folio-overview .folio-expand {
   -webkit-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
-  text-align: center;
 }
 
 #portfolio .folio-item:hover .folio-image {
@@ -982,7 +980,6 @@ ul.address {
 .footer-logo {
   display: inline-block;
   margin-bottom: 5px;
-  margin-left: auto;
 }
 
 #footer .social-icons {
@@ -1026,21 +1023,7 @@ ul.address {
 }
 
 
- .fundo{
-      font-family: 'Open Sans', sans-serif;
-      background-color: rgba(34, 34 , 34, 0.9);
-      text-align: center;
-      font-weight:bolder;
-      font-size: 18px;
-      text-align: justify;
-      margin-top: 2%;
-      margin-bottom: 2%;
-      width: 88%;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 5%;
 
- }
  @media screen and (max-width: 599px){
 
   .team-members {
