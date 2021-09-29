@@ -383,6 +383,7 @@ section {
 
 #portfolio .folio-item {
   position: relative;
+
 }
 
 #portfolio .overlay {
@@ -510,7 +511,7 @@ section {
 
 .team-members {
   margin-bottom: 25px;
-  margin-left: 240px;
+ 
   
 }
 #teamp {
@@ -869,6 +870,7 @@ section {
 **************************/
 
 #contact {
+  margin-top: 85px;
   padding-top: 45px;
   padding-bottom: 0;
 }
@@ -876,7 +878,6 @@ section {
 
 #contact-us {
   background-image:url(../possiveisimg/contato.jpg);
-  margin-bottom: 3px;
   margin-top: 30px;
   padding-bottom: 90px; 
   width: 100%;
@@ -920,34 +921,8 @@ ul.address {
   margin-bottom: 8px;
 }
 
-.contact-info ul li {
+.contact-info ul li a {
   color: #fff;
-}
-.contact-info a:link{
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
-  background-color: transparent;
-  text-decoration: underline;
-  position: absolute;
- }
-
- a:visited {
-  color: #DCDCDC;
-  background-color: transparent;
-  text-decoration: none;
- }
-
- a:hover {
-  color: #DCDCDC;
-  background-color: transparent;
-  text-decoration: underline;
- }
-
- a:active {
-  color:#DCDCDC;
-  background-color: transparent;
-  text-decoration: underline;
- }
 }
 
 .btn-submit {
@@ -1020,62 +995,91 @@ ul.address {
 }
 #footer .social-icons ul li a.tumblr:hover {
   background-color: #ff6b00;
-}
 
-
-
- @media screen and (max-width: 599px){
-
-  .team-members {
-  margin-bottom: 25px;
-  margin-left: 40px;
-  
-}
-
-.team-membersp {
-  margin-bottom: 25px;
-  margin-left: 40px;
-
-  
-}
-.img-responsive.lo{
-  width: 25%;
 
 }
+@media screen and (max-width: 599px){
+ .pros p{
+text-align: center;
+position: relative;
+font-size: 17px;
+
+
+}
+.pros h2{
+position: relative;
+font-size: 21px;
+text-align: center;
+
+}
+.pros h3{
+position: relative;
+font-size: 15px;
+text-align: center;
+
+}
+.pros img{
+  margin-left: 20px;
+  position: relative;
+  width: 50%;
+  height: 50;
+
+}
+ 
 }
 @media screen and (min-width: 600px){
+ .pros p{
+text-align: center;
+position: relative;
+font-size: 16px;
 
-   .team-members {
-  margin-bottom: 25px;
-  margin-left:40px;
 
-  
 }
-.team-membersp {
-  margin-bottom: 25px;
+.pros h2{
+position: relative;
+font-size: 26px;
+text-align: center; 
+
+}
+.pros h3{
+position: relative;
+font-size: 20px;
+text-align: center;
+
+}
+.pros img{
   margin-left: 40px;
+  position: relative;
 
+}
   
-}
-.img-responsive.lo{
-  width: 25%;
-  text-align: center;
-  margin-left:auto ;
-
-}
  }
 @media screen and (min-width: 768px){
+  .pros p{
+text-align: center;
+position: relative;
+font-size: 16px;
+margin-right:70px ;
 
-  .team-members {
-  margin-bottom: 25px;
-  margin-left: 230px;
-  
 }
-.img-responsive.lo{
-  width: 85%;
-  text-align: center;
-  margin-left:80px ;
+.pros h2{
+position: relative;
+font-size: 26px;
+margin-left:500px ; 
+
 }
+.pros h3{
+position: relative;
+font-size: 20px;
+margin-left:470px ; 
+
+}
+.pros img{
+  margin-left: 170px;
+  position: relative;
+
+}
+
 }
 
 
