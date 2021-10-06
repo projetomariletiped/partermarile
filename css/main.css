@@ -682,6 +682,7 @@ section {
 #twitter > div {
   text-align: center;
   position: relative;
+
 }
 
 #twitter-carousel {
@@ -692,7 +693,7 @@ section {
 .twitter-icon {
   position: relative;
   z-index: 15;
-  color: #fff;
+  color: black;
 }
 
 .twitter-icon .fa-twitter {
@@ -717,7 +718,7 @@ section {
   padding: 0 55px;
 }
 
-#twitter-carousel .item a {
+#twitter-carousel .item a  {
   color: #fff;
 }
 
@@ -725,7 +726,7 @@ section {
   text-transform: uppercase;
   margin-top: 25px;
   margin-bottom: 25px;
-  color: #fff;
+  color: black;
 }
 
 .twitter-left-control, 
@@ -754,6 +755,7 @@ section {
 .twitter-left-control:hover, .twitter-right-control:hover {
   color: #fff;
 }
+
 
 
 /*************************
@@ -1050,6 +1052,7 @@ text-align: center;
 .pros img{
   margin-left: 40px;
   position: relative;
+ 
 
 }
   
